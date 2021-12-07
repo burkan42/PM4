@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../hoofd.cc" />
+		<Unit filename="../koffiebord.cc" />
+		<Unit filename="../koffiebord.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -5,6 +5,8 @@ using namespace std;
 
 int main ( ) {
   koffiebord Koffiebord;
-  Koffiebord.drukaf ( );
+  int een;
+  cin >> een;
+  Koffiebord.drukaf (een);
   return 0;
 }//main

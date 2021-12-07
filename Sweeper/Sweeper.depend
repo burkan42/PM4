@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1638886750 source:c:\users\bnkoz\appdata\local\githubdesktop\app-2.9.3\pm4\hoofd.cc
+	<iostream>
+	"koffiebord.h"
+
+1638891742 c:\users\bnkoz\appdata\local\githubdesktop\app-2.9.3\pm4\koffiebord.h
+
+1638893871 source:c:\users\bnkoz\appdata\local\githubdesktop\app-2.9.3\pm4\koffiebord.cc
+	<iostream>
+	"koffiebord.h"
+	<ctime>
+	<cstdlib>
+
