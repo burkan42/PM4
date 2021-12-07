@@ -2,8 +2,31 @@
 #include <iostream>
 #include "koffiebord.h"
 using namespace std;
-
-int leesgetal (int bovengrens) {
+int bovengrens = 500;
+int leesgetal (int bovengrens) 
+{
+	char kar = cin.get();
+	int getal = 0;
+	while (kar == '\n')
+	{ 
+		kar = cin.get();
+	}
+	while (kar != '\n')
+	{
+		if (kar >= '0' && kar <= '9')
+		{
+			getal = getal * 10 + (kar - '0');
+		}
+		kar = cin.get();
+	}
+	cin.clear();
+	fflush(stdin);
+	if (getal > bovengrens)
+	{
+		return bovengrens;
+	}
+	else 
+		return getal;
   // TODO, zie Opgave 3
 }//leesgetal
 
