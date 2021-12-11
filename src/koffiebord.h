@@ -16,20 +16,17 @@ class bordvakje {
 class koffiebord {
   private:
     bordvakje* ingang;
+    bordvakje* uitgang;
     bordvakje* ganaar (int i, int j);
     int hoogte, breedte;
     int aantalkoffie;
     int zetten;
     void voegvoor (int getal);
     bordvakje* maakrij ( );
-
-    void ritsen ( );
-
+    void bouwbord ( );
 
     // TODO
   public:
-    void bouwbord (int breedte);
-    int content ( );
     koffiebord ( );
     ~koffiebord ( );
     bool klaar;
